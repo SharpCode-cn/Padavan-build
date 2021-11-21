@@ -94,7 +94,7 @@ jobs:
         #格式如下：
         #sed -i '/自定义项/d' .config
         #echo "自定义项=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=n" >> .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_DOGCOM=y" >> .config
         #########################################################################################
         sudo ./clear_tree
